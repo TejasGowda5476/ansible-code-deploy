@@ -11,7 +11,7 @@ pipeline {
         stage('Run Ansible') {
             steps {
                 script {
-                    sh 'sudo -u ansible ansible-playbook /var/lib/jenkins/workspace/${JOB_NAME}/deploy.yml'
+                    sh 'ansible-playbook deploy.yml'
                 }
             }
         }

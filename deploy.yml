@@ -1,5 +1,5 @@
 ---
-- name: code deploy
+- name: deploy.yml
   hosts: dev
   tasks:
     - name: deploy

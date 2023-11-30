@@ -4,7 +4,7 @@
   tasks:
     - name: deploy
       ansible.builtin.git:
-      repo: https://github.com/TejasGowda5476/ansible-code-deploy.git
-      dest: /var/www/html
-      single_branch: yes
-      version: main
+        repo: https://github.com/TejasGowda5476/ansible-code-deploy.git
+        dest: /var/www/html
+        single_branch: yes
+        version: main
